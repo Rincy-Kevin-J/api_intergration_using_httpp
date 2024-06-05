@@ -9,9 +9,7 @@ void main() {
 class ApiDio extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp(
-        home:PostHome()
-
-    );
+    return GetMaterialApp(home: PostHome(),
+      debugShowCheckedModeBanner: false,);
   }
 }
